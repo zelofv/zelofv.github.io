@@ -40,7 +40,10 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
+marked:
+  prependRoot: true
+  postAsset: true
 relative_link: false
 future: true
 highlight:
@@ -108,3 +111,11 @@ deploy:
 
 aplayer:
   asset_inject: false # 禁止 aplayer 注入资源
+
+toc:
+  maxdepth: 3
+  back_to_top: true
+#  anchor:
+#    position: after
+#    symbol: '#'
+#    style: header-anchor
